@@ -1,0 +1,110 @@
+body{
+    background-color:paleturquoise ;
+    font-family: cursive;
+
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+    font-size: 2em;
+}
+
+h3{
+    color: teal;
+    text-align: center;
+    font-size: x-large;
+}    
+
+h4{
+    color: crimson;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5rem ;
+}
+
+img {
+    border: 1px solid rgb(90, 9, 196);
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    border: 1px solid black; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100% ;
+}
+  
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+  
+tr:nth-child(even){background-color: #f2f2f2}
+  
+th {
+    background-color:lawngreen;
+    color:deeppink;
+    font-size: larger;
+}
+
+caption{
+    color:rgb(16, 10, 51);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*boton de enlace*/
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+/*pasar el mouse por el boton*/
+a:hover{
+    background-color:hotpink;
+}
+
+/*seleccionar enlace */
+a:active {
+    color:midnightblue;
+}
+
+div.presentacion {
+    border: 1px solid black;
+    padding: 25px 50px 75px 100px;
+    background-color: lightblue;
+}      
+
+div.familia {
+    border: 1px solid black;
+    padding: 25px 50px 75px 100px;
+    background-color: lightpink;
+}      
+
+div.gustos {
+    border: 1px solid black;
+    padding: 25px 50px 75px 100px;
+    background-color: lightslategray;
+}
+
+div.gustos2 {
+    border: 1px solid black;
+    padding: 25px 50px 75px 100px;
+    background-color: plum;
+} 
